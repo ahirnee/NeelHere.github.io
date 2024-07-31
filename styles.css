@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; /* Black background */
+    color: #f7f7f7; /* Light text color for contrast */
+}
+
+/* Header styles */
+header {
+    background-color: #2d2d2d; /* Dark blue */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Highlight color */
+}
+
+/* Section styles */
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background: #1e1e1e; /* Darker background for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #f39c12; /* Highlight color */
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+section ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Image styles */
+#bio img {
+    display: block;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px
